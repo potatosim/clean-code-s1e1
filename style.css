@@ -18,8 +18,9 @@
 }
 
 @media (max-width: 768px) {
-  .top-wrapper { text-align: center;
-}
+  .top-wrapper { 
+    text-align: center;
+  }
 }
 .main-content {
   display: block;
@@ -100,7 +101,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
