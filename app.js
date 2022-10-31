@@ -32,6 +32,7 @@ var createNewTaskElement=function(taskString){
     //button.delete
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");
+    deleteButtonImg.alt = 'Remove image';
     deleteButtonImg.classList.add('delete-image');//delete button image
 
     label.innerText=taskString;
